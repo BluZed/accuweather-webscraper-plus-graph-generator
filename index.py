@@ -79,13 +79,12 @@ def generate_graph(regioncode, regionname, month, year, callback):
     if(Already_Plotted == False):
         draw_graph()
 
-print("\n⌜                                                           ⌝")
-print("  █████████████████████████████████████████████████████████  ")
-print("  ██████████     ᴛᴇᴍᴘᴇʀᴀᴛᴜʀᴇ ɢʀᴀᴘʜ ɢᴇɴᴇʀᴀᴛᴏʀ       ████████  ")
-print("  ██████████ ʙᴀꜱᴇᴅ ᴏɴ ʜᴛᴛᴘꜱ://ᴡᴡᴡ.ᴀᴄᴄᴜᴡᴇᴀᴛʜᴇʀ.ᴄᴏᴍ/ ████████  ")
-print("  █████████████████████████████████████████████████████████  ")
-print("⌞                                                           ⌟")
-print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+print("-------------------------------------------------------------")
+print("   =======================================================   ")
+print("   =========      Temperature Graph Generator    =========   ")
+print("   =========   Based on https://accuweather.com  =========   ")
+print("   =======================================================   ")
+print("-------------------------------------------------------------")
 
 def input_and_start():
     def select_region():
@@ -110,11 +109,11 @@ def input_and_start():
             print("-> {}".format(log))
             selection = input("<- Do you want to exit? (y/n, default = y) ")
             if(selection == "n"):
-                print("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+                print("\n-------------------------------------------------------------")
                 input_and_start()
             else:
                 import sys
-                print("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+                print("\n-------------------------------------------------------------")
                 sys.exit()
         generate_graph(regioncode,regionname,month,year,callback)
     select_region()
