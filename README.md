@@ -2,3 +2,5 @@
 Before running da file, install the deps by running
 `pip install requests beautifulsoup4 matplotlib`
 in your terminal!
+
+*✔️ Working as of 3/7/22*
