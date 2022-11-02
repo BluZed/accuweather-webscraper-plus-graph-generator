@@ -9,5 +9,5 @@ in your terminal!
 
 This was made by me related to a school project :)
 
-*✔️ Working as of 3/7/22*\n
+*✔️ Working as of 3/7/22*     
 *✔️ Working as of 2/11/22*
